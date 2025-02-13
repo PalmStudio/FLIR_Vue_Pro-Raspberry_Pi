@@ -1,5 +1,7 @@
 # Controlling a FLIR Vue Pro with a Raspberry Pi
 
+[![DOI](https://zenodo.org/badge/384170107.svg)](https://doi.org/10.5281/zenodo.14862497)
+
 This repository is used to control a FLIR camera from a Raspberry Pi.
 
 To do so, we have to use the accessory cable to connect through the PWM3 or 4 ports. Then, we can trigger up to 3 instructions using standard PWM inputs for the R/C industry: 3.3-5vdc, 50Hz. LOW = 1ms/20ms, MID = 1.5ms/20ms, HIGH = 2ms/20ms.
